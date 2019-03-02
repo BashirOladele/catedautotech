@@ -1,0 +1,122 @@
+html, body{
+    height: 100%;
+    width:100%;
+}
+.navbar{
+    background-color:#227093;
+    padding: 1%;
+    font-size: 1.2em;
+    
+}
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+    color: #f7f1e3;
+}
+
+.navbar-brand a:hover{
+    color: #f7f1e3;
+}
+.navbar-default .navbar-nav li a{
+    color: #f7f1e3;
+    border-bottom: 2px solid #e1b12c;
+}
+
+.navbar-default .navbar-nav li a:hover, 
+.navbar-default .navbar-nav li a.active{
+    color: #fbc531;
+    
+}
+#home{
+    background: url(/img/office3.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.landing-text h1{
+    font-size: 400%;
+    font-weight: 700;
+    color: #fff;
+}
+.landing-text h3{
+    color:#e84118;
+    text-shadow: 5px soild #fbc531;
+}
+
+.firstLD{
+    background-color: ;
+    font-size: 20px;
+}
+.padding{
+    padding: 50px 0;
+}
+
+.padding img{
+    width:100%;
+}
+.padding i{
+    font-size: 50px;
+    color:#e84118;
+    margin-left: 40%;
+    margin-bottom: 15px;
+}
+
+.padding h4{
+    margin-left:40px;
+}
+#fixed{
+    background: url(/img/office1.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.fab{
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.fab:hover{
+ color: #d1d8e0;
+ text-decoration: none;
+}
+.icon{
+    max-width: 200px;
+}
+h1:after{
+    width: 100px;
+    height: 4px;
+    background-color: #e84118;
+    display: block;
+    content:" ";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+hr{
+   background: #fff;
+}
+footer{
+    width:100%;
+    background-color: #0E1D48;
+    padding: 2% 2% 1% 2%;
+    color: #d1d8e0;
+}
+@media (max-width:768px){
+    .landing-text h1{
+        font-size: 300%;
+    }
+}
